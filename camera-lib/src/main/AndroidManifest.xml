@@ -16,6 +16,10 @@
             android:name=".UsbFaceVerifyActivity"
             android:screenOrientation="landscape"
             android:theme="@style/translucentTheme" />
+        <activity
+            android:name=".CameraUserInfoActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/translucentTheme" />
     </application>
 
 </manifest>
