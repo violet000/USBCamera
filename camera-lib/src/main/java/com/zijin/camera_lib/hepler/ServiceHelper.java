@@ -29,7 +29,7 @@ public class ServiceHelper {
     public static String getParams(String faceBase64) {
         Gson gson = new Gson();
         HashMap<String, String> paramsMap = new HashMap<>();
-        paramsMap.put("faceBase64", faceBase64);
+        paramsMap.put("image", faceBase64);
         return gson.toJson(paramsMap);
     }
 }
