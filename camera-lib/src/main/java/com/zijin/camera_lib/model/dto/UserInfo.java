@@ -57,16 +57,24 @@ public class UserInfo {
         return userName;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUserName(String username) {
+        this.userName = username;
     }
 
     public String getPostName() {
         return postName;
     }
 
-    public void setPostName(String postName) {
+    public void setPostName(String roleName) {
         this.postName = postName;
+    }
+
+    public String getRoleName() {
+        return roleName;
+    }
+
+    public void setRoleName(String roleName) {
+        this.roleName = roleName;
     }
 
     public String getIdentity() {
@@ -96,8 +104,9 @@ public class UserInfo {
                 ", retMsg='" + retMsg + '\'' +
                 ", tid='" + tid + '\'' +
                 ", userNo='" + userNo + '\'' +
-                ", userName='" + userName + '\'' +
+                ", username='" + userName + '\'' +
                 ", postName='" + postName + '\'' +
+                ", roleName='" + roleName + '\'' +
                 ", identity='" + identity + '\'' +
                 ", originalPhoto='" + originalPhoto + '\'' +
                 '}';
