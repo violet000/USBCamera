@@ -66,7 +66,7 @@ public class UserInfo {
         return postName;
     }
 
-    public void setPostName(String roleName) {
+    public void setPostName(String postName) {
         this.postName = postName;
     }
 
