@@ -180,7 +180,7 @@ public class CameraActivity extends AppCompatActivity {
         for (int cameraId = 0; cameraId < numberOfCameras; cameraId++) {
             Camera.CameraInfo cameraInfo = new Camera.CameraInfo();
             Camera.getCameraInfo(cameraId, cameraInfo);
-            if (cameraInfo.facing == Camera.CameraInfo.CAMERA_FACING_FRONT) {
+            if (cameraInfo.facing == Camera.CameraInfo.CAMERA_FACING_BACK) {
                 this.cameraId = cameraId;
                 this.cameraInfo = cameraInfo;
             }
